@@ -365,6 +365,8 @@ persist-key
 persist-tun
 remote-cert-tls server
 comp-lzo
+route-method exe
+route-delay 2
 verb 3" > /etc/openvpn/client-common.txt
 	# Generates the custom client.ovpn
 	newclient "$CLIENT"
